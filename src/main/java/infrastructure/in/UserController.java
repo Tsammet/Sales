@@ -30,7 +30,8 @@ public class UserController {
                     System.out.println("-----BASE DE DATOS-----");
                     System.out.println("1. Crear Usuario: ");
                     System.out.println("2. Actualizar Usuario:  ");
-                    System.out.println(3);
+                    System.out.println("3. Visualizar Usuario:  ");
+                    System.out.println("4. salir");
 
 
                     int choice = scanner.nextInt();
