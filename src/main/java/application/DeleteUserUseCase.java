@@ -1,6 +1,5 @@
 package application;
 
-import domain.entity.User;
 import domain.service.UserService;
 
 public class DeleteUserUseCase {
@@ -11,8 +10,8 @@ public class DeleteUserUseCase {
         this.userService = userService;
     }
 
-    public void execute (User user){
-        userService.createUser(user);
+    public void execute (Long id){
+        userService.deleteUserById(id);
     }
 
 }

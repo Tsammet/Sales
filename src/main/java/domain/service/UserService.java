@@ -5,5 +5,6 @@ import domain.entity.User;
 public interface UserService {
     void createUser(User user);
     void updateUser(User user);
+    User deleteUserById(Long id);
     User findUserById(Long id);
 }
